@@ -40,8 +40,6 @@ body{
     padding: 0 40px 0 40px;
 }
 
-.introduction-text h1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.introduction-text{
+    margin: auto;
 }

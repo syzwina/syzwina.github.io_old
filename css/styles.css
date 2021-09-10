@@ -5,7 +5,6 @@
 }
 
 body{
-    padding: 50px 50px 50px 50px;
     background-color: #bee1e6;
 }
 
@@ -13,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0 40px 0;
+    padding: 40px 20px 40px 20px;
 }
 
 .socials{
@@ -33,4 +32,16 @@ body{
 
 .pages{
     padding: 0 10px 0 10px;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+
+.introduction-text h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

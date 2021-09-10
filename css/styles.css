@@ -47,7 +47,7 @@ body{
 .pages{
     padding: 40px 40px 40px 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: darkcyan;
 }
@@ -65,4 +65,6 @@ body{
 
 .introduction-text{
     margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
 }

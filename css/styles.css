@@ -12,13 +12,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px 40px 40px;
 }
 
 .nav-pages{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+}
+
+.logo{
+    padding: 16px 20px 30px 20px;
 }
 
 .socials{
@@ -41,15 +43,16 @@ body{
 }
 
 .pages{
-    padding: 0 30px 0 30px;
+    padding: 40px 40px 40px 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     text-decoration: none;
     color: darkcyan;
 }
 
-.pages span:hover{
-    color: cadetblue;
+.pages:hover{
+    background-color: cadetblue;
+    color: whitesmoke;
 }
 
 .introduction{

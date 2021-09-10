@@ -22,8 +22,13 @@ body{
     align-items: center;
 }
 
-.icon{
+.icon i{
     padding: 5px;
+    color: darkcyan;
+}
+
+.icon i:hover{
+    color: cadetblue;
 }
 
 .pages{

@@ -51,7 +51,7 @@ html, body{
 }
 
 .icon i:hover{
-    color: var(--accent1);
+    color: var(--accent2);
 }
 
 .pages{
@@ -63,7 +63,7 @@ html, body{
 }
 
 .pages:hover{
-    background-color: var(--accent2);
+    background-color: var(--accent1);
     color: var(--body);
 }
 

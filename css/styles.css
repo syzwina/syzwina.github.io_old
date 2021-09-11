@@ -51,7 +51,7 @@ html, body{
 }
 
 .icon i:hover{
-    color: var(--accent2);
+    color: var(--accent1);
 }
 
 .pages{

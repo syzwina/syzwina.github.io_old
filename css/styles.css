@@ -1,3 +1,5 @@
+/* Basic settings */
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +9,13 @@
 html, body{
     background-color:var(--body);
 }
+
+.line{
+    padding: 0 30px 0 30px;
+    margin-bottom: 70px;
+}
+
+/* Variables */
 
 :root{
 
@@ -18,11 +27,15 @@ html, body{
     
 }
 
-.nav{
+/* Navigation panel */
+
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    /* debugging */
+    border: var(--accent3) 1px dashed;
 }
 
 .nav-pages{
@@ -67,11 +80,22 @@ html, body{
     color: var(--body);
 }
 
+/* Main */
+
+main{
+    /* debuggging */
+    border: var(--accent3) 1px dashed;
+}
+
+/* Introduction - maybe should specialise and make a template for h1, h2 and stuff */
+
 .introduction{
     display: flex;
     justify-content: space-between;
     padding: 0 40px 0 40px;
     margin-bottom: 70px;
+    /* debugging */
+    border: var(--accent3) 1px dashed;
 }
 
 .introduction-text{
@@ -86,7 +110,14 @@ html, body{
     padding: 0 40px 0 0;
 }
 
-.line{
-    padding: 0 30px 0 30px;
-    margin-bottom: 70px;
+/* Footer */
+
+footer{
+    /* debugging */
+    border: var(--accent3) 1px dashed;
+}
+
+
+@media screen {
+    
 }

@@ -15,6 +15,11 @@ html, body{
     margin-bottom: 70px;
 }
 
+.photo{
+    max-width: 100%;
+    height: auto;
+}
+
 /* Variables */
 
 :root{
@@ -115,9 +120,4 @@ main{
 footer{
     /* debugging */
     border: var(--accent3) 1px dashed;
-}
-
-
-@media screen {
-    
 }

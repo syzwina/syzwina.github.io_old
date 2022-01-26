@@ -1,0 +1,172 @@
+/* Glabal Variables */
+
+:root{
+
+    /* colour theme */
+    --body: #f7f4f3;
+    --accent1: #5B2333;
+    --accent2: #A23F5B;
+    --accent3: #564D4A;
+    --size1: 5vm;
+}
+
+.color1{
+    background-color: var(--accent1);
+}
+
+.color2{
+    background-color: var(--accent2);
+}
+
+.color3{
+    background-color: var(--accent3);
+}
+
+/* Basic settings */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color:var(--body);
+}
+
+/* Navigation panel */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+    flex-direction: column;
+    height: 12.5vh;
+    overflow: hidden;
+}
+
+.nav-pages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 10vw 5vw 5vw 5vw;
+    /* debugging */
+    /* border: var(--accent1) 1px dashed; */
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    font-size: 5.5vw;
+}
+
+.icon i{
+    padding: 2.5vh 10vw 2.5vh 5vw;
+    color: var(--accent1);
+    /* debugging */
+    /* border: var(--accent1) 1px dashed; */
+}
+
+.icon i:hover{
+    color: var(--accent2);
+}
+
+.pages{
+    padding: 2.5vw 5vw 2.5vw 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5.5vw;
+    text-decoration: none;
+    color: var(--accent1);
+    /* debugging */
+    /* border: var(--accent1) 1px dashed; */
+}
+
+.pages:hover{
+    background-color: var(--accent1);
+    color: var(--body);
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    nav{
+        flex-direction: row;
+    }
+    .logo{
+        padding: 1vw 5vw 1vw 5vw;
+    }
+    .pages {
+        font-size: 2vw;
+        padding: 2vw 3.5vw 2vw 3.5vw;
+    }
+    .icon{
+        font-size: 2.5vw;
+    }
+    .icon i{
+        padding: 2vh 2.5vw 2vh 2.5vw;
+    }
+    .socials {
+        padding: 0 5vw 0 0;
+    }
+
+}
+  
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .pages {
+        font-size: 1.5vw;
+        padding: 2.5vw 3.5vw 2.5vw 3.5vw;
+    }
+    .icon{
+        font-size: 1.5vw;
+    }
+    .icon i{
+        padding: 2vh 1.5vw 2vh 1.5vw;
+    }
+    .socials {
+        padding: 2vh 4vw 0 0;
+    }
+
+}

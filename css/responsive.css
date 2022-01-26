@@ -42,8 +42,6 @@ nav{
     align-items: center;
     margin-bottom: 5vh;
     flex-direction: column;
-    height: 12.5vh;
-    overflow: hidden;
 }
 
 .nav-pages{
@@ -155,6 +153,10 @@ nav{
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
+    nav{
+        height: 12.5vh;
+        overflow: hidden;
+    }
     .pages {
         font-size: 1.5vw;
         padding: 2.5vw 3.5vw 2.5vw 3.5vw;
